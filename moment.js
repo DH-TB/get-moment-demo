@@ -10,6 +10,7 @@ console.log(moment().format('dddd'));                    // Tuesday
 console.log(moment().format('d'));                       // 2
 console.log(moment().format('YYYY [escaped] YYYY'));     // 2017 escaped 2017
 
+
 //相对时间,想对于当前时间过了多长时间
 console.log(moment("20111031",'YYYY').fromNow()); // 6 years ago
 console.log(moment("20120620", 'YYYYMMDD').fromNow()); // 5 years ago
